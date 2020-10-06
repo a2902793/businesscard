@@ -1,6 +1,6 @@
 {
   "name": "a2902793",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "Li Chung, Yeng (@a2902793)'s business card",
   "main": "./bin/card.js",
   "bin": {
