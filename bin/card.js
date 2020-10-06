@@ -14,19 +14,17 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Stefan Natter /'),
-  handle: chalk.cyan('natterstefan'),
-  work: chalk.white('Software Engineer at Lovely Systems'),
-  twitter: chalk.cyan('twitter.com/natterstefan'),
-  github: chalk.cyan('github.com/natterstefan'),
-  linkedin: chalk.cyan('linkedin.com/in/natterstefan'),
-  web: chalk.cyan('natterstefan.com'),
-  npx: chalk.white('npx natterstefan'),
+  name: chalk.white('Li Chung, Yeng /'),
+  handle: chalk.cyan('a2902793'),
+  work: chalk.white('Undergraduate at Tamkang University'),
+  github: chalk.cyan('github.com/a2902793'),
+  linkedin: chalk.cyan('linkedin.com/in/a2902793'),
+  mail: chalk.cyan('a2902793@gmail.com'),
+  npx: chalk.white('npx a2902793'),
   labelWork: chalk.white.bold('      Work:'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  labelWeb: chalk.white.bold('       Web:'),
+  labelMail: chalk.white.bold('  Mail:'),
   labelCard: chalk.white.bold('      Card:'),
 }
 
@@ -34,10 +32,9 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
-const webing = `${data.labelWeb}  ${data.web}`
+const mailing = `${data.labelMail}  ${data.mail}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -47,13 +44,12 @@ const output =
   newline +
   working +
   newline +
-  twittering +
   newline +
   githubing +
   newline +
   linkedining +
   newline +
-  webing +
+  mailing +
   newline +
   newline +
   carding
